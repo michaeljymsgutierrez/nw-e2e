@@ -1,14 +1,27 @@
 {
-  "name": "e2e-nw",
-  "version": "1.0.0",
-  "description": "E2E with NW",
-  "main": "nightwatch.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "author": "Chaelgutierrez",
-  "license": "ISC",
-  "dependencies": {
-    "nightwatch": "^0.9.21"
-  }
+    "name": "cg-e2e-nw",
+    "version": "1.0.0",
+    "description": "",
+    "main": "nightwatch.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "nightwatch": "^0.9.21"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "node nightwatch.js -e chrome",
+        "start": "cd lib/drivers && java -jar selenium-server-standalone-2.39.0.jar"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/cg-development/cg-e2e-nw.git"
+    },
+    "author": "Chael gutierrez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/cg-development/cg-e2e-nw/issues"
+    },
+    "homepage": "https://gitlab.com/cg-development/cg-e2e-nw#README"
 }
