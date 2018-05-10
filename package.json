@@ -1,0 +1,14 @@
+{
+  "name": "e2e-nw",
+  "version": "1.0.0",
+  "description": "E2E with NW",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Chaelgutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}
